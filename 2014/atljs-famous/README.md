@@ -1,7 +1,5 @@
-#famous-general-assembly
-> Take the Mobile Web to the Next Level: Become Famo.us - General Assembly 2014 Talk.
-
-[![Build Status](https://travis-ci.org/chalaschek/famous-general-assembly.svg?branch=master)](https://travis-ci.org/chalaschek/famous-general-assembly) [![Dependency Status](https://david-dm.org/chalaschek/famous-general-assembly.svg)](https://david-dm.org/chalaschek/famous-general-assembly) [![devDependency Status](https://david-dm.org/chalaschek/famous-general-assembly/dev-status.svg)](https://david-dm.org/chalaschek/famous-general-assembly#info=devDependencies)
+#atljs-famous
+> Meet Famo.us - Atlanta JavaScript Meetup Talk 2014
 
 ##Dependencies
 It is actually quite simple really
