@@ -148,21 +148,21 @@ li{
   top: 5px;
 }
 
-.title .ga{
+.title .atljs{
   /*position: relative;*/
   padding-top: 60px;
   width: 100%;
   font-size: 18px;
 }
 
-.title .ga img{
+.title .atljs img{
   height: 30px;
 }
 
-.title .ga span{
+.title .atljs span{
   position: relative;
-  top: -20px;
-  left: 5px;
+  top: -9px;
+  left: 15px;
 }
 
 .map img{

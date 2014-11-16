@@ -15,11 +15,6 @@ define(function(require, exports, module) {
     },
 
     {
-      classList: ['timeline', 'center'],
-      content: '<img src="content/images/timeline.png"/>',
-    },
-
-    {
       classList: ['iframe', 'center'],
       content: '<iframe src="//player.vimeo.com/video/86664858?autoplay=1" width="800" height="800" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
     },
@@ -65,12 +60,6 @@ define(function(require, exports, module) {
       classList: ['famous-what', 'center'],
       content: require('text!./famous-what-2.html')
     },
-
-    {
-      classList: ['famous-hype', 'center'],
-      content: '<img src="content/images/famous-hype.png"/>',
-    },
-
 
     {
       classList: ['famous-what', 'center'],
@@ -128,11 +117,6 @@ define(function(require, exports, module) {
 
     {
       content: require('./example-square')
-    },
-
-    {
-      classList: ['famous', 'center', 'iframe'],
-      content: '<iframe height="800" width="800" src="http://famo.us/" frameborder="0"></iframe>'
     },
 
     {
@@ -231,11 +215,6 @@ define(function(require, exports, module) {
     {
       classList: ['resources', 'center'],
       content: require('text!./resources.html')
-    },
-
-    {
-      classList: ['future', 'center'],
-      content: '<img src="content/images/crystal-ball.jpg"/>'
     },
 
     {
