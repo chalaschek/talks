@@ -48,10 +48,6 @@ define(function(require, exports, module) {
     },
 
     {
-      content: require('./famous'),
-    },
-
-    {
       classList: ['periodic', 'center', 'iframe'],
       content: '<iframe height="800" width="800" src="http://periodic.famo.us/" frameborder="0"></iframe>'
     },
@@ -59,11 +55,6 @@ define(function(require, exports, module) {
     {
       classList: ['famous-what', 'center'],
       content: require('text!./famous-what-2.html')
-    },
-
-    {
-      classList: ['famous-what', 'center'],
-      content: require('text!./famous-what.html')
     },
 
 
@@ -203,8 +194,18 @@ define(function(require, exports, module) {
     },
 
     {
-      classList: ['when', 'center'],
-      content: require('text!./when.html')
+      classList: ['single', 'center'],
+      content: '<h1>Mixed Mode</h1>'
+    },
+
+    {
+      classList: ['iframe', 'center'],
+      content: '<iframe height="800" width="800" src="//www.youtube.com/embed/EjLCfD8qrkE?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1&start=35" frameborder="0"></iframe>'
+    },
+
+    {
+      classList: ['iframe', 'center'],
+      content: '<iframe height="800" width="800" src="//www.youtube.com/embed/tJQn-YEZA9E?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1&start=80" frameborder="0"></iframe>'
     },
 
     {
