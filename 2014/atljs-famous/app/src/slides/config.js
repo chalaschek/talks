@@ -200,12 +200,7 @@ define(function(require, exports, module) {
 
     {
       classList: ['iframe', 'center'],
-      content: '<iframe height="800" width="800" src="//www.youtube.com/embed/EjLCfD8qrkE?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1&start=35" frameborder="0"></iframe>'
-    },
-
-    {
-      classList: ['iframe', 'center'],
-      content: '<iframe height="800" width="800" src="//www.youtube.com/embed/tJQn-YEZA9E?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1&start=80" frameborder="0"></iframe>'
+      content: '<iframe height="800" width="800" src="//www.youtube.com/embed/EjLCfD8qrkE?rel=0&amp;amp;showinfo=0&autoplay=1&start=35" frameborder="0"></iframe>'
     },
 
     {
