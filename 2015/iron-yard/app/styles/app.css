@@ -1,0 +1,520 @@
+html {
+  font-family: 'Roboto', "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 100;
+  height: 100%;
+  color: whitesmoke;
+}
+
+body{
+  -webkit-font-smoothing: initial;
+}
+
+a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+ul{
+  font-weight: 400;
+  list-style: none;
+  font-size: 70px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+li{
+  margin-bottom: 20px;
+}
+
+
+
+.iframe iframe{
+  width: 800px;
+  height: 800px;
+}
+
+
+.single h1{
+  font-size: 80px;
+}
+
+
+.text-dark {
+  color: #000;
+}
+
+.text-light {
+  color: #fff;
+}
+
+.white-background{
+  background: #fff;
+}
+
+
+.black-background{
+  background: rgba(0,0,0,1);
+  background: -moz-linear-gradient(-45deg, rgba(0,0,0,1) 0%, rgba(81,82,80,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(81,82,80,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(0,0,0,1) 0%, rgba(81,82,80,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(0,0,0,1) 0%, rgba(81,82,80,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(0,0,0,1) 0%, rgba(81,82,80,1) 100%);
+  background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(81,82,80,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#515250', GradientType=1 );
+}
+
+.blue-background{
+  background: rgba(73,165,191,1);
+  background: -moz-linear-gradient(-45deg, rgba(73,165,191,1) 0%, rgba(117,189,209,1) 59%, rgba(147,206,222,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(73,165,191,1)), color-stop(59%, rgba(117,189,209,1)), color-stop(100%, rgba(147,206,222,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(73,165,191,1) 0%, rgba(117,189,209,1) 59%, rgba(147,206,222,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(73,165,191,1) 0%, rgba(117,189,209,1) 59%, rgba(147,206,222,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(73,165,191,1) 0%, rgba(117,189,209,1) 59%, rgba(147,206,222,1) 100%);
+  background: linear-gradient(135deg, rgba(73,165,191,1) 0%, rgba(117,189,209,1) 59%, rgba(147,206,222,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49a5bf', endColorstr='#93cede', GradientType=1 );
+}
+
+.gold-background{
+  background: rgba(254,182,69,1);
+  background: -moz-linear-gradient(-45deg, rgba(254,182,69,1) 0%, rgba(241,231,103,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(254,182,69,1)), color-stop(100%, rgba(241,231,103,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(254,182,69,1) 0%, rgba(241,231,103,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(254,182,69,1) 0%, rgba(241,231,103,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(254,182,69,1) 0%, rgba(241,231,103,1) 100%);
+  background: linear-gradient(135deg, rgba(254,182,69,1) 0%, rgba(241,231,103,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feb645', endColorstr='#f1e767', GradientType=1 );
+}
+
+.red-background{
+  background: rgba(192,57,43,1);
+  background: -moz-linear-gradient(-45deg, rgba(192,57,43,1) 0%, rgba(199,92,82,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(192,57,43,1)), color-stop(100%, rgba(199,92,82,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(192,57,43,1) 0%, rgba(199,92,82,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(192,57,43,1) 0%, rgba(199,92,82,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(192,57,43,1) 0%, rgba(199,92,82,1) 100%);
+  background: linear-gradient(135deg, rgba(192,57,43,1) 0%, rgba(199,92,82,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c0392b', endColorstr='#c75c52', GradientType=1 );
+}
+
+.shadow{
+  -webkit-box-shadow: 10px 10px 5px -5px rgba(48,47,48,1);
+  -moz-box-shadow: 10px 10px 5px -5px rgba(48,47,48,1);
+  box-shadow: 10px 10px 5px -5px rgba(48,47,48,1);
+}
+
+
+.center{
+  text-align: center;
+}
+
+
+.double-sided {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+.title{
+  color: whitesmoke;
+  text-align: center;
+}
+
+.title .famous{
+  height: 100px;
+}
+
+.title h1{
+  font-size: 60px;
+  max-width:1200px;
+  margin: 25px 0;
+}
+
+.title .author{
+  font-weight: 100;
+  font-size: 40px;
+  padding-top: 20px;
+}
+
+.title .twitter{
+  margin-top: 5px;
+}
+
+.title .twitter img{
+  height: 20px;
+  height: 34px;
+  margin-right: 5px;
+  position: relative;
+  top: 5px;
+}
+
+.title .iy{
+  /*position: relative;*/
+  padding-top: 60px;
+  width: 100%;
+  font-size: 18px;
+}
+
+.title .iy img{
+  height: 75px;
+}
+
+.title .iy span{
+  position: relative;
+  top: -19px;
+  left: 15px;
+}
+
+.map img{
+  /*max-width: 95%;
+  max-height: 95%;*/
+  width: 1382px;
+  height: 851px;
+}
+
+.graph {
+  background-color: #fff;
+}
+
+
+.flat-black{
+  background-color: #000;
+}
+
+
+
+
+.semantic-web img{
+  height: 275px;
+}
+
+.semantic-web h1{
+  font-size: 40px;
+}
+
+.hashgo {
+  text-align: center;
+}
+.hashgo img{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  max-height: 30%;
+}
+
+.hashgo img:first-child{
+  /*width: 70%;*/
+  max-height: 200px;
+  margin-bottom: 50px;
+}
+
+.hashgo img:last-child{
+  border-radius: 5px;
+  max-height: 400px;
+}
+
+.voxa {
+  text-align: center;
+}
+.voxa img{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.voxa img:first-child{
+  width: 25%;
+  margin-bottom: 50px;
+}
+
+.voxa img:last-child{
+  /*border-radius: 5px;*/
+}
+
+.academia, .startups {
+  font-size: 30px;
+}
+
+.academia img, .startups img{
+  max-width: 90%;
+  max-height: 300px;
+}
+
+.startups img{
+  border-radius: 5px;
+}
+
+.work div{
+  font-size: 30px;
+}
+
+.work img{
+  margin: 30px 20px 0 20px;
+  width: 100px;
+  float: left;
+  border-radius: 5px;
+}
+
+
+.work .twitter{
+  margin-top: 38px;
+}
+
+
+.depth{
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../content/images/depth.jpg);
+}
+
+.work .git{
+  margin-top: 35px;
+}
+
+.work .scrum {
+  width: 200px;
+  margin-top: 35px;
+}
+
+.work .aws {
+  width: 150px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.web-is-dead{
+  background-color: #FC4826;
+}
+
+.web-is-dead img{
+  max-height: 80%;
+  margin-top: 5%;
+}
+
+.facebook-abandons-html5{
+  background-attachment: fixed;
+  background-position: 50% 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../content/images/facebook-abandons-html5.png);
+}
+
+
+.flashback{
+  background-color: #000;
+  padding-top: 10%;
+}
+
+
+.timeline{
+  background-color: #ffffff;
+}
+
+
+.timeline img{
+/*  max-width: 95%;
+  max-height: 95%;
+*/
+  width: 2000px;
+  height: 1000px;
+}
+
+
+
+
+
+
+.why{
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-image: url(../content/images/why.png);
+}
+
+
+.go-fast, .smooth{
+  /*background-color: #000;*/
+}
+
+.go-fast h1, .smooth h1{
+  font-size: 70px;
+  margin-top: 0px;
+  margin-bottom: 60px;
+}
+
+.go-fast img{
+  width: 250px;
+  height: 271px;
+}
+
+.smooth img{
+  width: 346px;
+  height: 200px;
+}
+
+
+.what-to-do .content{
+  margin: 0 auto;
+  text-align: left;
+  font-size: 35px;
+}
+
+.what-to-do li{
+  font-size: 35px;
+}
+
+.what-to-do .content h1{
+  margin: 0;
+}
+
+
+.hell{
+  background-color: #fff;
+  background-attachment: fixed;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../content/images/hell.jpg);
+}
+
+
+
+
+.famous .copy{
+  font-size: 100px;
+  text-align: center;
+  font-weight: 400;
+}
+
+
+
+.famous-what h1{
+  font-size: 70px;
+}
+
+
+.famous-hype img{
+  width: 1022px;
+  height: 556px;
+}
+
+
+
+.code-tree{
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.code-tree img{
+  margin-top: 20px;
+}
+
+
+.famous-more{
+  font-size: 50px;
+}
+
+.context img{
+  width: 1101px;
+  height: 183px;
+}
+
+.surfaces img{
+  width: 1099px;
+  height: 253px;
+}
+
+
+.modifiers img{
+  width: 1098px;
+  height: 325px;
+}
+
+
+.branches img{
+  width: 877px;
+  height: 338px;
+}
+
+.tranforms img{
+  width: 1100px;
+  height: 276px;
+}
+
+.rotations img{
+  width: 846px;
+  height: 213px;
+}
+
+.curves img{
+  width: 1211px;
+  height: 215px;
+}
+
+.physics img{
+  width: 1211px;
+  height: 215px;
+}
+
+
+
+
+.so-what{
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../content/images/Who_cares.png);
+}
+
+
+.when{
+  font-size: 40px;
+}
+
+
+.caution ul{
+  font-size: 60px;
+}
+
+
+.frameworks{
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-image: url(../content/images/frameworks.png);
+}
+
+
+
+.resources ul{
+  font-size: 65px;
+}
+
+.future{
+  width: 1000px;
+  height:800px;
+}
+
+
+.final .ref{
+  margin-top: 10px;
+}

@@ -15,8 +15,8 @@ var square = new Surface({
 });
 
 var modifier = new Modifier({
-  align: [0.5, 0.5],
-  origin: [0.5, 0.5]
+  align: [0, 0],
+  origin: [0, 0]
 });
 
 mainContext.add(modifier).add(square);

@@ -20,7 +20,10 @@ var stateModifier = new StateModifier({
   origin: [0.5, 0.5]
 });
 
-stateModifier.setTransform(Transform.rotateY(1000), {duration: 500, curve: "easeOutBounce"});
-stateModifier.setTransform(Transform.rotateY(0), {duration: 3000, curve: "easeOutBounce"});
+stateModifier.setTransform(Transform.rotateY(1000),
+  {duration: 500, curve: "easeOutBounce"});
+
+stateModifier.setTransform(Transform.rotateY(0),
+  {duration: 3000, curve: "easeOutBounce"});
 
 mainContext.add(stateModifier).add(square);

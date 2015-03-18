@@ -80,9 +80,18 @@ var modifier = new Modifier({
   origin: [0.5, 0.5],
   transform: function(){
     angle += 0.02;
-    return Transform.rotate(angle, angle, 0);
+    return Transform.rotate(angle, angle, angle);
   }
 });
 
 
 mainContext.add(modifier).add(cube);
+
+
+
+
+
+
+
+
+

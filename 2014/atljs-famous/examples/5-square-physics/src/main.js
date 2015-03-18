@@ -23,8 +23,8 @@ var stateModifier = new StateModifier({
 
 stateModifier.setTransform(Transform.rotateY(1000), {
   method: SpringTransition,
-  period: 1500,
-  dampingRatio: 0.2
+  period: 500,
+  dampingRatio: 0.02
 });
 
 stateModifier.setTransform(Transform.rotateY(0), {
