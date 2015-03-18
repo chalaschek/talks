@@ -28,6 +28,10 @@ li{
 }
 
 
+.constrain-image img{
+  max-width: 90%;
+}
+
 
 .iframe iframe{
   width: 800px;
@@ -132,7 +136,7 @@ li{
 
 .title .author{
   font-weight: 100;
-  font-size: 40px;
+  font-size: 60px;
   padding-top: 20px;
 }
 
@@ -148,6 +152,10 @@ li{
   top: 5px;
 }
 
+.title .date{
+  margin-top: 20px;
+}
+
 .title .iy{
   /*position: relative;*/
   padding-top: 60px;
@@ -156,7 +164,7 @@ li{
 }
 
 .title .iy img{
-  height: 75px;
+  height: 110px;
 }
 
 .title .iy span{
@@ -242,7 +250,14 @@ li{
 
 .startups img{
   border-radius: 5px;
+  display: block;
+  margin: 0 auto;
 }
+
+.startups img:first-child{
+  margin-bottom: 40px;
+}
+
 
 .work div{
   font-size: 30px;
@@ -261,6 +276,10 @@ li{
 }
 
 
+.work h1{
+  font-size: 60px;
+}
+
 .depth{
   background-color: #fff;
   background-attachment: fixed;
@@ -274,9 +293,9 @@ li{
   margin-top: 35px;
 }
 
-.work .scrum {
+.work .agile {
   width: 200px;
-  margin-top: 35px;
+  margin-top: 25px;
 }
 
 .work .aws {
@@ -284,235 +303,13 @@ li{
   margin-top: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.web-is-dead{
-  background-color: #FC4826;
-}
-
-.web-is-dead img{
-  max-height: 80%;
-  margin-top: 5%;
-}
-
-.facebook-abandons-html5{
-  background-attachment: fixed;
-  background-position: 50% 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url(../content/images/facebook-abandons-html5.png);
-}
-
-
-.flashback{
-  background-color: #000;
-  padding-top: 10%;
-}
-
-
-.timeline{
-  background-color: #ffffff;
-}
-
-
-.timeline img{
-/*  max-width: 95%;
-  max-height: 95%;
-*/
-  width: 2000px;
-  height: 1000px;
+.bulb img {
+  width: 150px;
 }
 
 
 
 
-
-
-.why{
-  background-color: #fff;
-  background-attachment: fixed;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-image: url(../content/images/why.png);
-}
-
-
-.go-fast, .smooth{
-  /*background-color: #000;*/
-}
-
-.go-fast h1, .smooth h1{
-  font-size: 70px;
-  margin-top: 0px;
-  margin-bottom: 60px;
-}
-
-.go-fast img{
-  width: 250px;
-  height: 271px;
-}
-
-.smooth img{
-  width: 346px;
-  height: 200px;
-}
-
-
-.what-to-do .content{
-  margin: 0 auto;
-  text-align: left;
-  font-size: 35px;
-}
-
-.what-to-do li{
-  font-size: 35px;
-}
-
-.what-to-do .content h1{
-  margin: 0;
-}
-
-
-.hell{
-  background-color: #fff;
-  background-attachment: fixed;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../content/images/hell.jpg);
-}
-
-
-
-
-.famous .copy{
-  font-size: 100px;
-  text-align: center;
-  font-weight: 400;
-}
-
-
-
-.famous-what h1{
-  font-size: 70px;
-}
-
-
-.famous-hype img{
-  width: 1022px;
-  height: 556px;
-}
-
-
-
-.code-tree{
-  font-size: 70px;
-  font-weight: 400;
-}
-
-.code-tree img{
-  margin-top: 20px;
-}
-
-
-.famous-more{
-  font-size: 50px;
-}
-
-.context img{
-  width: 1101px;
-  height: 183px;
-}
-
-.surfaces img{
-  width: 1099px;
-  height: 253px;
-}
-
-
-.modifiers img{
-  width: 1098px;
-  height: 325px;
-}
-
-
-.branches img{
-  width: 877px;
-  height: 338px;
-}
-
-.tranforms img{
-  width: 1100px;
-  height: 276px;
-}
-
-.rotations img{
-  width: 846px;
-  height: 213px;
-}
-
-.curves img{
-  width: 1211px;
-  height: 215px;
-}
-
-.physics img{
-  width: 1211px;
-  height: 215px;
-}
-
-
-
-
-.so-what{
-  background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(../content/images/Who_cares.png);
-}
-
-
-.when{
-  font-size: 40px;
-}
-
-
-.caution ul{
-  font-size: 60px;
-}
-
-
-.frameworks{
-  background-attachment: fixed;
-  background-position: 50% 50%;
-  background-size: 40%;
-  background-repeat: no-repeat;
-  background-image: url(../content/images/frameworks.png);
-}
-
-
-
-.resources ul{
-  font-size: 65px;
-}
-
-.future{
-  width: 1000px;
-  height:800px;
-}
 
 
 .final .ref{

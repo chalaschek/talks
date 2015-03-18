@@ -15,6 +15,11 @@ define(function(require, exports, module) {
     },
 
     {
+      classList: ['center', 'constrain-image'],
+      content: '<img src="content/images/doodle-810-ivory-tower.png"/>'
+    },
+
+    {
       classList: ['center', 'semantic-web'],
       content: require('text!./semantic-web.html')
     },
@@ -25,8 +30,17 @@ define(function(require, exports, module) {
       content: '<img src="content/images/humanInteractome.png"/>',
     },
 
+
+    {
+      // classList: ['center'],
+      // backgroundClassList: ['flat-black'],
+      content: '<img src="content/images/valley.png"/>',
+    },
+
+
     {
       backgroundClassList: ['graph'],
+      // backgroundClassList: ['flat-black'],
       content: '<img class="shadow" src="content/images/human-disease-network.jpg"/>',
     },
 
@@ -36,9 +50,24 @@ define(function(require, exports, module) {
     },
 
     {
+      // classList: ['center'],
+      backgroundClassList: ['white-background'],
+      content: '<img src="content/images/uga.png"/>',
+    },
+
+
+    {
       classList: ['voxa', 'center'],
       content: '<img src="content/images/voxa_steel.png"/><img src="content/images/voxa.png"/>',
     },
+
+
+    {
+      classList: ['bulb', 'center'],
+      backgroundClassList: ['white-background'],
+      content: '<img src="content/images/bulb.png"/>',
+    },
+
 
     {
       classList: ['center', 'academia'],
@@ -47,13 +76,28 @@ define(function(require, exports, module) {
 
     {
       classList: ['center', 'startups'],
-      content: '<img src="content/images/path-to-success.png"/><h1>Early Stage Tech</h1>'
+      content: '<img src="content/images/startups-text.png"/><img src="content/images/path-to-success.png"/>'
     },
+
+    {
+      classList: ['center', 'startups'],
+      backgroundClassList: ['flat-black'],
+      content: '<img src="content/images/day.jpg"/>',
+    },
+
 
     {
       classList: ['center', 'startups'],
       content: require('text!./startups.html')
     },
+
+    {
+      // classList: ['center', 'startups'],
+      // backgroundClassList: ['flat-black'],
+      content: '<img src="content/images/tips.png"/>',
+    },
+
+
 
     {
       classList: ['center', 'work'],
