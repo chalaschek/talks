@@ -27,6 +27,10 @@ li{
   margin-bottom: 20px;
 }
 
+.rounded img{
+  border-radius: 5px;
+}
+
 
 .constrain-image img{
   max-width: 90%;
@@ -145,11 +149,10 @@ li{
 }
 
 .title .twitter img{
-  height: 20px;
-  height: 34px;
+  height: 45px;
   margin-right: 5px;
   position: relative;
-  top: 5px;
+  top: 10px;
 }
 
 .title .date{
