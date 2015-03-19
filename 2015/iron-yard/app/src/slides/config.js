@@ -95,7 +95,7 @@ define(function(require, exports, module) {
     },
 
     {
-      // classList: ['rounded', 'tips'],
+      classList: ['tests'],
       backgroundClassList: ['light-black'],
       content: '<img src="content/images/tests.jpeg"/>',
     },
