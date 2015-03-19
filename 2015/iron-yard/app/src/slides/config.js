@@ -45,7 +45,7 @@ define(function(require, exports, module) {
 
     {
       backgroundClassList: ['graph' ],
-      // backgroundClassList: ['flat-black'],
+      classList: ['graph'],
       content: '<img class="shadow" src="content/images/human-disease-network.jpg"/>',
     },
 
