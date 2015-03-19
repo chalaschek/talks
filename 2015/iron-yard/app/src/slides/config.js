@@ -31,12 +31,6 @@ define(function(require, exports, module) {
     },
 
     {
-      classList: ['bulb', 'center'],
-      backgroundClassList: ['white-background'],
-      content: '<img src="content/images/bulb.png"/>',
-    },
-
-    {
       classList: ['center', 'sv'],
       // backgroundClassList: ['flat-black'],
       content: '<img src="content/images/valley.png"/>',
