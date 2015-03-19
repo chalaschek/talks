@@ -187,16 +187,41 @@ li{
   background-color: #fff;
 }
 
+.graph img{
+  width: 944px;
+  height: 600px;
+}
+
 
 .flat-black{
   background-color: #000;
 }
 
+.tower img{
+  height: 315px;
+  width: 315px;
+}
 
+
+.web-graph img{
+  height: 636px;
+  width: 960px;
+}
+
+img.tw {
+  width: 432px;
+  height: 200px;
+}
+
+img.tw1 {
+  width: 255px;
+  height: 400px;
+}
 
 
 .semantic-web img{
   height: 275px;
+  /*width: 239px;*/
 }
 
 .semantic-web h1{
@@ -233,6 +258,17 @@ li{
   margin: 0 auto;
 }
 
+.voxa .logo {
+  width: 315px;
+  height: 69px;
+}
+
+.voxa .screenshot {
+  width: 905px;
+  height: 172px;
+}
+
+
 .voxa img:first-child{
   width: 25%;
   margin-bottom: 50px;
@@ -261,6 +297,26 @@ li{
   margin-bottom: 40px;
 }
 
+.startups .copy {
+  width: 352px;
+  height: 88px;
+}
+
+.startups .path {
+  width: 330px;
+  height: 236px;
+}
+
+.startups .day {
+  width: 694px;
+  height: 270px;
+}
+
+.tips img {
+  width: 358px;
+  height: 358px;
+}
+
 
 .work div{
   font-size: 30px;
@@ -268,7 +324,7 @@ li{
 
 .work img{
   margin: 30px 20px 0 20px;
-  width: 100px;
+  height: 100px;
   float: left;
   border-radius: 5px;
 }
@@ -278,6 +334,10 @@ li{
   margin-top: 38px;
 }
 
+
+.work .web{
+  height: 115px;
+}
 
 .work h1{
   font-size: 60px;
@@ -292,24 +352,37 @@ li{
   background-image: url(../content/images/depth.jpg);
 }
 
+
 .work .git{
-  margin-top: 35px;
+  /*margin-top: 35px;*/
 }
 
 .work .agile {
-  width: 200px;
-  margin-top: 25px;
+  /*width: 200px;*/
+  margin-top: 30px;
 }
 
 .work .aws {
-  width: 150px;
+  height: 150px;
   margin-top: 20px;
 }
 
 .bulb img {
   width: 150px;
+  height: 259px;
 }
 
+
+.sv img{
+  width: 300px;
+  height: 300px;
+}
+
+
+.uga img {
+  width: 302px;
+  height: 196px;
+}
 
 
 
