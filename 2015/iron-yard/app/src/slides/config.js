@@ -89,11 +89,15 @@ define(function(require, exports, module) {
       content: '<img src="content/images/tips.png"/>',
     },
 
-
-
     {
       classList: ['center', 'work'],
       content: require('text!./work.html')
+    },
+
+    {
+      // classList: ['rounded', 'tips'],
+      backgroundClassList: ['light-black'],
+      content: '<img src="content/images/tests.jpeg"/>',
     },
 
     {
