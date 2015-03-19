@@ -1,5 +1,5 @@
-#atljs-famous
-> Meet Famo.us - Iron Yard 2015
+#iron-yard
+> Iron Yard 2015
 
 ##Dependencies
 It is actually quite simple really

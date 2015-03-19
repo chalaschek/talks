@@ -15,7 +15,7 @@ define(function(require, exports, module) {
     },
 
     {
-      classList: ['center', 'constrain-image'],
+      classList: ['center', 'tower'],
       content: '<img src="content/images/doodle-810-ivory-tower.png"/>'
     },
 
@@ -25,7 +25,7 @@ define(function(require, exports, module) {
     },
 
     {
-      classList: ['center'],
+      classList: ['center', 'web-graph'],
       backgroundClassList: ['flat-black'],
       content: '<img src="content/images/humanInteractome.png"/>',
     },
@@ -37,21 +37,21 @@ define(function(require, exports, module) {
     },
 
     {
-      // classList: ['center'],
+      classList: ['center', 'sv'],
       // backgroundClassList: ['flat-black'],
       content: '<img src="content/images/valley.png"/>',
     },
 
 
     {
-      backgroundClassList: ['graph'],
+      backgroundClassList: ['graph' ],
       // backgroundClassList: ['flat-black'],
       content: '<img class="shadow" src="content/images/human-disease-network.jpg"/>',
     },
 
     {
       classList: ['hashgo'],
-      content: '<img src="content/images/trendwars.png"/><img src="content/images/tw3.jpg"/>',
+      content: '<img class="tw" src="content/images/trendwars.png"/><img class="tw1" src="content/images/tw3.jpg"/>',
     },
 
     {
@@ -63,7 +63,7 @@ define(function(require, exports, module) {
 
     {
       classList: ['voxa', 'center'],
-      content: '<img src="content/images/voxa_steel.png"/><img src="content/images/voxa.png"/>',
+      content: '<img class="logo" src="content/images/voxa_steel.png"/><img class="screenshot" src="content/images/voxa.png"/>',
     },
 
     {
@@ -72,20 +72,15 @@ define(function(require, exports, module) {
       content: '<img src="content/images/bulb.png"/>',
     },
 
-    // {
-    //   classList: ['center', 'academia'],
-    //   content: '<img src="content/images/doodle-810-ivory-tower.png"/><h1>Complete something that<br/>takes years to finish</h1>'
-    // },
-
     {
       classList: ['center', 'startups'],
-      content: '<img src="content/images/startups-text.png"/><img src="content/images/path-to-success.png"/>'
+      content: '<img class="copy" src="content/images/startups-text.png"/><img class="path" src="content/images/path-to-success.png"/>'
     },
 
     {
       classList: ['center', 'startups'],
       backgroundClassList: ['flat-black'],
-      content: '<img src="content/images/day.jpg"/>',
+      content: '<img class="day" src="content/images/day.jpg"/>',
     },
 
 
@@ -95,7 +90,7 @@ define(function(require, exports, module) {
     },
 
     {
-      classList: ['rounded'],
+      classList: ['rounded', 'tips'],
       // backgroundClassList: ['flat-black'],
       content: '<img src="content/images/tips.png"/>',
     },
