@@ -373,11 +373,21 @@ img.tw1 {
 
 .work .git{
   /*margin-top: 35px;*/
+  width: 100px;
 }
 
 .work .agile {
   /*width: 200px;*/
   margin-top: 30px;
+  width: 160px;
+}
+
+.work .jira{
+  width: 92px;
+}
+
+.work .aws{
+  width: 150px;
 }
 
 .work .aws {
