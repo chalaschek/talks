@@ -192,6 +192,15 @@ li{
   height: 600px;
 }
 
+.sideprojects {
+  background-color: #fae3bc;
+}
+
+.sideprojects img{
+  width: 472px;
+  height: 315px;
+}
+
 
 .flat-black{
   background-color: #000;

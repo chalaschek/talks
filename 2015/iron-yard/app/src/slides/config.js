@@ -95,6 +95,12 @@ define(function(require, exports, module) {
     },
 
     {
+      classList: ['sideprojects'],
+      backgroundClassList: ['sideprojects'],
+      content: '<img src="content/images/sideprojects.png"/>'
+    },
+
+    {
       classList: ['tests'],
       backgroundClassList: ['light-black'],
       content: '<img src="content/images/tests.jpeg"/>',
