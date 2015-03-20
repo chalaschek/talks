@@ -49,7 +49,7 @@ define(function(require, exports, module) {
     },
 
     {
-      // classList: ['center'],
+      classList: ['uga'],
       backgroundClassList: ['white-background'],
       content: '<img src="content/images/uga.png"/>',
     },
