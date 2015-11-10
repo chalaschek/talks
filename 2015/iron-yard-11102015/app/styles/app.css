@@ -296,6 +296,30 @@ img.tw1 {
   /*border-radius: 5px;*/
 }
 
+
+.pindrop img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.pindrop .logo{
+  width: 505px;
+  height: 133px;
+}
+
+.pindrop .ani{
+  width: 289px;
+  height: 289px;
+}
+
+
+.pindrop img:first-child{
+/*  width: 25%;*/
+  margin-bottom: 50px;
+}
+
+
 .academia, .startups {
   font-size: 30px;
 }
@@ -392,14 +416,18 @@ img.tw1 {
   width: 92px;
 }
 
-.work .aws{
-  width: 150px;
-}
-
 .work .aws {
   height: 150px;
+  width: 150px;
   margin-top: 20px;
 }
+
+.work .docker {
+  height: 125px;
+  width: 143px;
+  margin-top: 15px;
+}
+
 
 .bulb img {
   width: 150px;

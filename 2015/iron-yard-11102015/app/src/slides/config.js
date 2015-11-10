@@ -60,6 +60,14 @@ define(function(require, exports, module) {
       content: '<img class="logo" src="content/images/voxa_steel.png"/><img class="screenshot" src="content/images/voxa.png"/>',
     },
 
+
+    {
+      classList: ['pindrop', 'center'],
+      backgroundClassList: ['white-background'],
+      content: '<img class="logo" src="content/images/Pindrop_Logo.png"/><img class="ani" src="content/images/Pindrop_Icon_BadANI.png"/>',
+    },
+
+
     {
       classList: ['bulb', 'center'],
       backgroundClassList: ['white-background'],
